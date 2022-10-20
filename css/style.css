@@ -14,8 +14,10 @@ body{
 h1{
     font-size: 50px;
 }
-
-section{
+h2{
+    font-size: 40px;
+}
+.fexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,6 +39,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    margin: 0 3% 0 3%;
 }
 .half-width img{
     width: 70%;
@@ -48,4 +51,25 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+.exp-area{
+    box-shadow: 10px 10px 40px gray;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+footer p {
+    text-align: center;
+}
+
+/* id */
+#full-stack{
+    /* border-image: linear-gradient(skyblue, orange); */
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-develop {
+    border-left: 10px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
 }
